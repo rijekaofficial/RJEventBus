@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.rijeka:rjeventbus:1.0.0")
+    implementation("dev.rijeka.rjeventbus:rjeventbus:1.0.0")
 }
 ```
 
