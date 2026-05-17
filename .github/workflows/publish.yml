@@ -19,7 +19,9 @@ jobs:
           distribution: "temurin"
 
       - name: Build & Publish locally
-        run: ./gradlew publish
+        run: |
+          chmod +x gradlew
+          ./gradlew publish
 
       - name: Push to maven-repo
         run: |
